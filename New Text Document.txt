@@ -1,0 +1,3 @@
+This project demonstrates a fully serverless, event-driven cloud architecture built on AWS using Terraform. The primary objective is not the application logic itself, but the design and orchestration of distributed services communicating through managed AWS components. The system showcases how to architect scalable, decoupled, and highly available workloads without provisioning or maintaining any servers.
+
+The architecture adopts a multi-tier model consisting of a web delivery tier, an authentication layer, an API and processing tier, and an asynchronous messaging and notification pipeline. Each tier is isolated, loosely coupled, and interacts through managed AWS services, ensuring elastic scalability, minimal operational overhead, and cost-efficient execution.
